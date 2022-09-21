@@ -1,0 +1,74 @@
+.home-page{
+    .text-zone{
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        max-height: 90%;
+    }
+    h1{
+        color: #ffff;
+        font-size: 2cm;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+        &::before{
+            // content: '<h1>';
+            font-family: 'La Belle Aurora';
+            color: yellowgreen;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -40px;
+            left: 15px;
+            // opacity: 0.6;
+
+        }
+        &::after{
+            // content: '<h1/>';
+            font-family: 'La Belle Aurora';
+            color: yellowgreen;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            animation: fadeIn 1s 9s backwards;
+            animation: ease-in-out 1s 1.7s backwards;
+            opacity: 0.6;
+
+        }
+    }
+    h2{
+        color: yellowgreen;
+        font-family: sans-serif;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 0.7cm;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+        &:hover{
+            color: white;
+        }
+
+    }
+    .flat-button{
+        color: yellowgreen;
+        font-size: 20px;
+        border-radius: 2cm;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid yellowgreen;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover{
+            background-color: yellowgreen;
+            color: #333;
+        }
+    }
+}
