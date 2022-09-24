@@ -1,5 +1,6 @@
 import './index.scss'
 import logoS from './../../assets/images/CHARITY MUTEMBEI-1 (1).png'
+import Resume from '../../assets/JOB-DOC/CV 1 (2).pdf'
 
 const Sidebar = () => {
     return (
@@ -20,17 +21,17 @@ const Sidebar = () => {
                 </div>
                 <div class="col">
                     <a href="/">
-                    <h1 class="name">Projects</h1>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="/">
                     <h1 class="name">Profile</h1>
                     </a>
                 </div>
                 <div class="col">
                     <a href="/">
-                    <h1 class="name" id="end">Contact</h1>
+                    <h1 class="name">Contact</h1>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href={Resume}>
+                    <h1 class="name" id="end">Resume</h1>
                     </a>
                 </div>
                 <div class="col">

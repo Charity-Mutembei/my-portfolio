@@ -8,13 +8,12 @@
     font-size: 0.6cm;
     padding-top: 1cm;
 }
-.metalk{
+.content{
     line-height: 1cm;
 }
 .flat-button{
     color: yellowgreen;
     font-size: 20px;
-    border-radius: 2cm;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
@@ -31,8 +30,22 @@
         color: #333;
     }
 }
+#cvic1{
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    padding: 6cm;
+    margin-top: -10cm;
+    .heading{
+        color: black;
+        font-size: 0.5cm;
+        // padding: 2cm;
+        font-weight: 300;
+    }
+}
 #cvic{
     background-color: white;
+    color: black;
     font-family: sans-serif;
     padding: 6cm;
     .heading{

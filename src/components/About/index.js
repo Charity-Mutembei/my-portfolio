@@ -1,6 +1,7 @@
 import './index.scss'
 import Logo from './../home/logo'
 import Sidebar from './../sidebar'
+// import Document from '../documents'
 import YoutubeLogo from './../../assets/About/youtube-6362801.png'
 import SpotifyLogo from './../../assets/About/spotify-6862049.png'
 import PodcastLogo from './../../assets/About/mic-5574483.png'
@@ -19,19 +20,21 @@ const About = () => {
                              
             </div>
             <div class="col-6" className="Text">
-            <h1 className="metalk"> 
-                <br/>
-                I presume you want to know more about me!
-                <br/> (Your time checking my portfolio is appreciated)</h1>
-            <p className="Text2">
-                I am a 23 year-old young woman  pursuing a career as a Fullstack Web Developer.
-                <br/> Don't worry! You can take my word for it. <br/>
-                I design and build web applications using languaguages such as <br/>
-                 Python, TypeScript, JavaScript, HTML and CSS. 
-            </p>
-            <a href="/Projects" className="me">
-                    <h3 className="flat-button"> See my Projects <i class="fa fa-compass" aria-hidden="true"></i> </h3>
-                </a>
+            <h3 className="content">
+                <ul >
+                    <li>I am a born and raised Kenyan </li>
+                    <li> I recently graduated from Moringa School where as a remote learner aiming to become a web developer</li>
+                    <li>As a student , I have created websites using technologies such as CSS, HTML5, JavaScript, Python, and TypeScript</li>
+                    <li>I have also collaborated with other students under guardianship of a technical mentor</li>
+                    <li>Before joining Moringa School, I had been pursuing a bachelor's degree in Education but deffered.</li>
+                    <li>To afford my basic needs, I aided in the creation of web applications to my fellow computer science school mates</li>
+                    <li>This interaction with these computer science students marked the beginning of my <br/> software development curiosity</li>
+
+                </ul>
+            </h3>
+            <p className="me">
+                    <h3 className="flat-button"> Below is something I listen to <i class="fas fa-level-down"></i></h3>
+                </p>
                 
 
             
@@ -87,28 +90,15 @@ const About = () => {
   </div>
 </div>
         </div>
-
        
         <div class="row" id="cvic">
             {/* cv parts  */}
-            <div class="col-6">
-            <h1 className="heading">Background</h1>
+            <div class="col-4">
+            <h1 className="heading">Background Information</h1>
+
             </div>
-            <div class="col-6">
-            <h1 className="content">Lorem ipsum dolor sit amet,
-             consectetur adipiscing elit. Morbi ac mauris mauris.
-              Quisque fringilla magna consequat nulla egestas
-               sagittis. Interdum et malesuada fames ac ante ipsum
-               primis in faucibus. Donec aliquet blandit velit, non
-                facilisis nibh placerat elementum. Duis consectetur 
-                nulla ullamcorper, tristique libero non, dictum metus.
-                 Nunc quis facilisis nibh, id consectetur est. Sed sed
-                  consequat tortor. Donec vel est eu metus sollicitudin
-                   auctor. Integer eget tincidunt quam, placerat
-                    scelerisque neque. Pellentesque scelerisque
-                     rutrum dui at feugiat. Fusce euismod risus 
-                     quis lectus tempus mattis. Donec bibendum 
-                     dignissim quam at lacinia.</h1>
+            <div class="col-8">
+                     
             </div>
         </div>
 
