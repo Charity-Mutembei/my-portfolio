@@ -1,5 +1,5 @@
 import './index.scss'
-// import logoS from '../../assets/images/top.png'
+import logoS from './../../assets/images/CHARITY MUTEMBEI-1 (1).png'
 
 const Sidebar = () => {
     return (
@@ -9,7 +9,7 @@ const Sidebar = () => {
             <div class="row">
                 <div class="col">
                 <a class="navbar-brand" href="/">
-                    {/* <img  width="120px" height="120px" alt="" class="name2" /> */}
+                    <img src={logoS} width="250px" height="250px" alt="" class="name2" />
                     <span class="name"></span>
                 </a>
                 </div>

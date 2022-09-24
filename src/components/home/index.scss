@@ -1,55 +1,44 @@
-.home-page{
+.Home{
+    background-image: url('./../../assets/images/2125.jpg');
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
     .text-zone{
-        position: absolute;
-        left: 10%;
-        top: 50%;
-        transform: translateY(-50%);
+        height: 100vh;
+        color: #ffff;
+        // transform: translateY(-50%);
         width: 100%;
         max-height: 90%;
+        // position: absolute;
+        background-color: rgba(0,0,0,0.5);       
     }
     h1{
-        color: #ffff;
         font-size: 2cm;
         margin: 0;
+        padding: 3cm;
         font-family: 'Coolvetica';
         font-weight: 400;
-        &::before{
-            // content: '<h1>';
-            font-family: 'La Belle Aurora';
-            color: yellowgreen;
-            font-size: 18px;
-            position: absolute;
-            margin-top: -40px;
-            left: 15px;
-            // opacity: 0.6;
-
-        }
-        &::after{
-            // content: '<h1/>';
-            font-family: 'La Belle Aurora';
-            color: yellowgreen;
-            font-size: 18px;
-            position: absolute;
-            margin-top: 18px;
-            margin-left: 20px;
-            animation: fadeIn 1s 9s backwards;
-            animation: ease-in-out 1s 1.7s backwards;
-            opacity: 0.6;
-
-        }
+        animation: fadeIn 1s 1.8s backwards;
+    
     }
     h2{
         color: yellowgreen;
         font-family: sans-serif;
-        margin-top: 20px;
+        padding-left: 3cm;
+        margin-top: -100px;
         font-weight: 400;
         font-size: 0.7cm;
         letter-spacing: 3px;
-        animation: fadeIn 1s 1.8s backwards;
+        animation: fadeIn 1s 2.8s backwards;
         &:hover{
             color: white;
         }
 
+    }
+    h3{
+       margin-left: 3cm;
     }
     .flat-button{
         color: yellowgreen;
@@ -63,7 +52,7 @@
         border: 1px solid yellowgreen;
         margin-top: 25px;
         float: left;
-        animation: fadeIn 1s 1.8s backwards;
+        animation: fadeIn 1s 3.8s backwards;
         white-space: nowrap;
 
         &:hover{

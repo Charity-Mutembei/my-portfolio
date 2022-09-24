@@ -1,21 +1,37 @@
 .name1{
     color: #ffff;
-    margin-left: 7cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 4.5cm;
     margin-top: 1cm;
 }
 .name1:hover{
     color: yellowgreen;
+    border: 1px solid yellowgreen;
+    border-radius: 1cm;
+    width: 4cm;
+    padding-left: 1cm;
+    height: 1cm;
 }
 .name2{
     margin-left: 1cm;
+    margin-top: -2cm;
+    color: #ffff;
+    font-size: 1.25cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .name{
     color: #ffff;
-    margin-left: 1.5cm;
+    margin-left: 1cm;
     margin-top: 1cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .name:hover{
     color: yellowgreen;
+    border: 1px solid yellowgreen;
+    border-radius: 1cm;
+    width: 4cm;
+    padding-left: 1cm;
+    height: 1cm;
 
 }
 #name{
