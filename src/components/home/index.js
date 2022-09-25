@@ -1,6 +1,7 @@
 import './index.scss'
 import Navbar from '../Navbar'
 import Introduction from '../FirstPage'
+import About from '../SecondPage'
 
 const Home = () => {
     return (
@@ -12,6 +13,9 @@ const Home = () => {
             </div>
             <div className='introsection'>
                  <Introduction/>
+            </div>
+            <div className="Aboutsection">
+                <About/>
             </div>
 
             </div>

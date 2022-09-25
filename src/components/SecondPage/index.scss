@@ -1,0 +1,53 @@
+#About{
+    margin-top: 30%;
+}
+#style{
+    width: 64cm;
+}
+.card-body{
+    font-family: 'Poppins', sans-serif;
+}
+.card-title{
+    font-weight: 900;
+    font-size: 10rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+}
+.card-text{
+    font-size: 1.7rem;
+    margin-top: 2rem;
+}
+.line{
+    color: black;
+    width: 57rem;
+    border: 1px solid yellowgreen;
+}
+#resume{
+    margin-left: 1rem;
+    border: 1px solid yellowgreen;
+    padding: 0.5rem;
+    width: 1cm;
+    border-radius: 1rem;
+    color: white;
+    background-color: black;
+    &:hover{
+        background-color: yellowgreen;
+        color: black;
+    }
+}
+.capital{
+    font-size: 1.5cm;
+    font-weight: 500;
+}
+#icon{
+    font-size: 2rem;
+}
+.text{
+    font-size: 1.5rem;
+}
+.tales{
+    margin-top: 3rem;
+}
+.checkbelow{
+    margin-top: -17rem;
+}
