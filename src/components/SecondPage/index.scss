@@ -1,6 +1,10 @@
 #About{
     margin-top: 30%;
+    
 }
+// .card-body{
+//     background-image: linear-gradient(to right, yellowgreen , skyblue);
+// }
 #style{
     width: 64cm;
 }
@@ -8,8 +12,10 @@
     font-family: 'Poppins', sans-serif;
 }
 .card-title{
-    font-weight: 900;
-    font-size: 10rem;
+    // font-weight: 900;
+    // font-size: 10rem;
+    font-size: 1.5cm;
+    font-weight: 800;
     letter-spacing: 0.5rem;
     text-align: center;
 }

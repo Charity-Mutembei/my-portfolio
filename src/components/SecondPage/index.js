@@ -34,16 +34,6 @@ const About = ()=> {
                     </div>
                     </div>
                 </div>
-                <div className="checkbelow">
-            <a class="link" href="About">
-                <span class="link__arrow">
-                    <span></span>
-                    <span></span>
-                </span>
-                <span class="link__line"></span>
-                <span class="link__text"><strong>Next</strong></span>
-                </a>
-            </div>
                 </div>
         </>
     )
