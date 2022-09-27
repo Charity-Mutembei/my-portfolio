@@ -156,6 +156,8 @@ const Project = () => {
                     <div className="projectTitle">
                        
                         <h1 className="projectName"> <span class="number">4</span>  ELIMISHA KENYA <i class="fas fa-location-arrow"></i></h1>
+                        <h6 className="projectName"> Coming Soon .... </h6>
+                        
               
                     </div>
                     <div className="projectDescription">
