@@ -53,6 +53,7 @@ const Home = () => {
                     <span></span>
                 </span>
                 <span class="link__line"></span>
+                <span></span>
                 
                 <span class="link__text"><strong>CONTACTS</strong></span>
                 </a>
